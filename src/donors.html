@@ -15,7 +15,7 @@
     <ul class="menu-list">
       <li>Home</li>
       <li>Sobre</li>
-      <a href="/donors"> <li>Donors</li></a>
+      <li>Itens</li>
       <li>Contato</li>
       <li>Mapa</li>
       <li>Ajuda</li>
@@ -87,6 +87,7 @@
             <p>Comprimento: {{ donor.length }}</p>
             <p>Largura: {{ donor.width }}</p>
             <p>Altura: {{ donor.height }}</p>
+            <textarea>Descrição: {{ donor.description }}</textarea>
           </span>
         </div>
       {%endfor%}
