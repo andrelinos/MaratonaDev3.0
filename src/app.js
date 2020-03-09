@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import nunjucks from 'nunjucks';
 
-let ="";
+const urlApp = 'src/index.html';
 
 class App {
   constructor() {
@@ -16,14 +16,12 @@ class App {
       express.static(path.resolve(__dirname, '..', 'src', 'public'))
     );
 
-
     nunjucks.configure('./', {
       express: this.server,
     });
 
-
     this.server.get('/', (req, res) => {
-      return res.render('index.html');
+      return res.render(urlApp);
     });
   }
 }
