@@ -4,6 +4,6 @@ import DonorsController from './app/controllers/DonorsController';
 
 const routes = new Router();
 
-routes.get('/donors', DonorsController.index);
+routes.get('/', DonorsController.index);
 
 export default routes;

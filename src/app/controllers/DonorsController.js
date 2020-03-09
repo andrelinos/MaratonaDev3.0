@@ -1,6 +1,8 @@
+import '../../config/nunjucksConfig';
+
 class DonorsControler {
   async index(req, res) {
-    return res.json({ ok: 'Tudo Certo.' });
+    return res.render('index.html');
   }
 }
 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Maratona DEV 3.0</title>
+</head>
+
+<body>
+
+  <div class="menu-nav">
+    <ul class="menu-list">
+      <li>Home</li>
+      <li>Sobre</li>
+      <li>Itens</li>
+      <li>Contato</li>
+      <li>Mapa</li>
+      <li>Ajuda</li>
+    </ul>
+  </div>
+
+  <header>
+
+
+
+    <div class="heart"><span>DOE</span></div>
+    <h2>A sua doação importa</h2>
+    <p>Se você tem algo que não está mais usando, pense no próximo. Quem sabe o que você não usa mais, pode ser muito
+      bem usado pelo seu próximo</p>
+    <p>Milhões de pessoas Brasil a fora sofrerão com a perda de roupas, móveis, casas e outros itens essenciais nos
+      últimos anos com enchentes, acidentes com represas, quedas de barreiras e dentre outros desastres.</p>
+    <p>Assim sendo, cada um pode ajudar o próximo com o que pode. Então, não espere que algo aconteça para que você mude
+      de opnição sobre ajudar outros. Ajude agora mesmo com o que está ao seu alcance!</p>
+    <p>Ajuda nunca é demais, todos podem ajudar e qualquer um pode precisar de ajuda no decorrer de sua vida. </p>
+    <button>Quero ajudar</button>
+  </header>
+
+  <section class="form hide">
+    <div class="title-form">
+      <h2>Seja você também um doador</h2>
+    </div>
+
+    <form action="/">
+
+      <input type="text" name="item" placeholder="Insira nome do item">
+
+      <input type="text" name="comprimento" placeholder="Comprimento do item">
+      <input type="text" name="largura" placeholder="Largura do item">
+      <input type="text" name="altura" placeholder="Insira nome do item">
+
+      <div>
+        <label for="situation">
+          Situação:
+        </label>
+
+        <select id="situation" name="situation">
+          <option value="" selected>Selecione...</option>
+          <option value="usado">Usado</option>
+          <option value="novo">Novo</option>
+        </select>
+      </div>
+
+      <textarea name="descricao" id="" rows="10"></textarea>
+
+      <button>Doar agora</button>
+
+    </form>
+  </section>
+
+  <main>
+    <h2>Últimos <span>doados</span></h2>
+
+    <section class="donors">
+
+      <div class="donor">
+        <div class="donated">Usado</div>
+        <p>Cama de solteiro</p>
+        <span>
+          <p>Comprimento: 190cm</p>
+          <p>Largura: 98cm</p>
+          <p>Altura: 21cm</p>
+        </span>
+      </div>
+
+      <div class="donor">
+        <div class="donated">Usado</div>
+        <p>Geladeira Frost free</p>
+        <span>
+          <p>Comprimento: 68cm</p>
+          <p>Largura: 77cm</p>
+          <p>Altura: 190cm</p>
+        </span>
+      </div>
+      <div class="donor">
+        <div class="donated">Novo</div>
+        <p>Cama de casal</p>
+        <span>
+          <p>Comprimento: 190cm</p>
+          <p>Largura: 138cm</p>
+          <p>Altura: 21cm</p>
+        </span>
+      </div>
+      <div class="donor">
+        <div class="donated">Usado</div>
+        <p>Fogão 4 bocas</p>
+        <span>
+          <p>Comprimento: 60cm</p>
+          <p>Largura: 70cm</p>
+          <p>Altura: 98cm</p>
+        </span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer> Com ❤ <a href="http://www.rocketseat.com.br" target="_blank" title="Rocketseat">Rocketseat</a> </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
